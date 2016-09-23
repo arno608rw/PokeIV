@@ -224,7 +224,7 @@ class LoginViewController: UIViewController {
         self.indicator.hidesWhenStopped = true
         
         self.declareLabel.text =
-            NSLocalizedString("Resource:\ngithub.com/aipeople/PokeIV", comment: "source declaration")
+            NSLocalizedString("Thank\naipeople", comment: "source declaration")
         self.declareLabel.textColor = App.Color.Text.Disable
         self.declareLabel.textAlignment = .Center
         self.declareLabel.numberOfLines = 0

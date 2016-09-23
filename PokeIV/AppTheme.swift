@@ -29,7 +29,7 @@ struct App {
             static var Disable   = UIColor(white: 1.0, alpha: 0.25)
         }
         
-        static var Main = UIColor(red: 250.0/255.0, green: 205.0/255.0, blue: 60.0/255.0, alpha: 1.0)
+        static var Main = UIColor(red: 204.0/255.0, green: 15.0/255.0, blue: 32.0/255.0, alpha: 1.0)
         
         
     }

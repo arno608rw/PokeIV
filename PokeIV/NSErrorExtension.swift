@@ -13,7 +13,7 @@ import Foundation
 extension NSError {
     
     convenience init(code: Int, description: String) {
-        self.init(domain: "su.pokeIV.com", code: code, userInfo: [NSLocalizedDescriptionKey: description])
+        self.init(domain: "suarno.pokeIV.com", code: code, userInfo: [NSLocalizedDescriptionKey: description])
     }
     
     convenience init(domain: String, code: Int, description: String) {
@@ -33,7 +33,7 @@ extension ErrorCode {
 
 struct Error {
     
-    static let Domain = "su.pokeIV.com"
+    static let Domain = "suarno.pokeIV.com"
     
     struct Code {
         
